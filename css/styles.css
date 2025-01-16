@@ -200,6 +200,7 @@ address {
 }
 
 .motivation-item {
+  height: 104px;
   width: calc((100% - 24px * 3) / 4);
 }
 
