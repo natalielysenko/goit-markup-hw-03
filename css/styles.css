@@ -129,9 +129,9 @@ address {
   background-color: #2e2f42;
   border: 1px solid #000;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  padding: 188px 0;
 }
 .container-hero {
-  padding: 188px 0;
 }
 .hero-title {
   font-size: 56px;
@@ -159,7 +159,7 @@ address {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
 
-  border: 1px solid #000;
+  border: none;
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
@@ -173,8 +173,7 @@ address {
 /* section-motivation */
 
 .motivation-section-c {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
   margin: 0 auto;
 }
 
@@ -208,10 +207,10 @@ address {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0px;
 }
 
 .container-team {
-  padding: 120px 15px;
 }
 
 .team-title {
@@ -245,11 +244,14 @@ address {
 
 .team-list {
   display: flex;
+  align-items: center;
   gap: 24px;
 }
 
 .team-list-item {
   background-color: #fff;
+  width: 264px;
+  height: 380px;
 
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -257,19 +259,19 @@ address {
 }
 
 .container-people {
-  margin: 32px auto;
   width: 232px;
   height: 56px;
+  padding: 32px 0;
 }
 
 /* portfolio-section */
 
 .portfolio {
   background-color: #fff;
+  padding: 120px 0;
 }
 
 .container-portfolio {
-  padding: 120px 0;
 }
 .portfolio-title {
   font-size: 36px;
@@ -290,6 +292,7 @@ address {
 }
 
 .portfolio-list-item {
+  width: calc((100% - 48px) / 3)
   border-radius: 0 0 4px 4px;
 }
 
@@ -299,9 +302,7 @@ address {
   border-right: 1px solid #e7e9fc;
   width: 360px;
   height: 120px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
 }
 
 .portfolio-subtitle {
@@ -326,6 +327,13 @@ footer {
   padding: 100px 0;
 }
 
+.main-logo-footer{
+  display: inline-block;
+  
+  padding: 0;
+  margin-bottom: 16px;
+}
+
 .logo-footer {
   font-weight: 700;
   font-size: 18px;
@@ -333,8 +341,7 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-  display: inline-block;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-text {
